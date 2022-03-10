@@ -86,13 +86,13 @@ body{
 }
 #border_img{
     border-left: 5px solid;
-    border-color: salmon; 
-    border-image: slice;
+    border-image: linear-gradient(180deg, tomato, salmon);
+    border-image-slice: 1;
 }
 #boxrder_img{
     border-left: 5px solid;
-    border-color: blueviolet; 
-    border-image: slice;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
 }
 .footer{
     background-color: #0F1119;
